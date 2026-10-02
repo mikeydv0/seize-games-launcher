@@ -1,0 +1,216 @@
+{
+  "brand": {
+    "name": "Seize Games",
+    "tagline": "Indie games. No filler.",
+    "logo": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/logo.png",
+    "website": "",
+    "discord": "https://discord.gg/x5TnwNaaae"
+  },
+  "theme": {
+    "accent": "#ff2a4a",
+    "accent2": "#ff8a2a",
+    "background": "#0a0b0f"
+  },
+  "studio": false,
+  "remoteConfig": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/launcher.json",
+  "minimizeOnPlay": false,
+  "news": [
+    {
+      "title": "Seize Games Launcher is live",
+      "date": "2026-10-01",
+      "image": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/neonstrike.png",
+      "body": "Every Seize game in one place. Install once, updates arrive automatically.",
+      "url": ""
+    },
+    {
+      "title": "THE RITE — new audio pass",
+      "date": "2026-09-28",
+      "image": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/the-rite.png",
+      "body": "Full ambient soundtrack, breathing and door audio. Play it with headphones. Alone.",
+      "url": ""
+    },
+    {
+      "title": "The End Game on Roblox",
+      "date": "2026-09-26",
+      "image": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/endgame.png",
+      "body": "Our flagship Roblox experience. Join the Discord for update drops.",
+      "url": "https://www.roblox.com/games/100274217465849"
+    }
+  ],
+  "games": [
+    {
+      "id": "neonstrike",
+      "title": "NEONSTRIKE",
+      "tagline": "It is already watching.",
+      "description": "A neon-soaked first-person shooter. Clear the arena, keep moving, and don't trust the friendly bear. WASD to move, SHIFT to sprint, mouse to aim and shoot.",
+      "genres": [
+        "Shooter",
+        "Action",
+        "First-Person"
+      ],
+      "type": "download",
+      "version": "1.0.0",
+      "downloadUrl": "https://github.com/mikeydv0/seize-games-launcher/releases/download/neonstrike-v1.0.0/neonstrike-1.0.0.zip",
+      "entry": "index.html",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/neonstrike.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/neonstrike.png",
+      "featured": true,
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-28",
+          "notes": "Launch build."
+        }
+      ]
+    },
+    {
+      "id": "the-rite",
+      "title": "THE RITE",
+      "tagline": "3:07 AM. Do not look back.",
+      "description": "A first-person horror walk through a house that isn't empty. Flashlight, headphones, and the sound of something that follows a few steps behind.",
+      "genres": [
+        "Horror",
+        "Atmospheric",
+        "First-Person"
+      ],
+      "type": "download",
+      "version": "1.1.0",
+      "downloadUrl": "https://github.com/mikeydv0/seize-games-launcher/releases/download/the-rite-v1.1.0/the-rite-1.1.0.zip",
+      "entry": "index.html",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/the-rite.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/the-rite.png",
+      "featured": true,
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-28",
+          "notes": "New ambient soundtrack, breath and door audio."
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-09-20",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "thup",
+      "title": "THUP",
+      "tagline": "Something's weird about your walls.",
+      "description": "Bullet holes are appearing in your apartment and nobody heard a shot. Stay low, figure out where it's coming from, and get out alive.",
+      "genres": [
+        "Thriller",
+        "Stealth"
+      ],
+      "type": "download",
+      "version": "0.9.0",
+      "downloadUrl": "https://github.com/mikeydv0/seize-games-launcher/releases/download/thup-v0.9.0/thup-0.9.0.zip",
+      "entry": "index.html",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/thup.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/thup.png",
+      "featured": true,
+      "changelog": [
+        {
+          "version": "0.9.0",
+          "date": "2026-10-01",
+          "notes": "Graphics pass: sun beams through the bullet holes."
+        }
+      ]
+    },
+    {
+      "id": "munch",
+      "title": "MUNCH",
+      "tagline": "You're starving. The store is right there.",
+      "description": "Grab food. Pay. Walk home. Eat it. The simplest errand you've ever run — if the street lets you.",
+      "genres": [
+        "Comedy",
+        "Simulation"
+      ],
+      "type": "download",
+      "version": "1.0.0",
+      "downloadUrl": "https://github.com/mikeydv0/seize-games-launcher/releases/download/munch-v1.0.0/munch-1.0.0.zip",
+      "entry": "index.html",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/munch.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/munch.png",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-26",
+          "notes": "Launch build."
+        }
+      ]
+    },
+    {
+      "id": "minecraft",
+      "title": "BLOCKCRAFT",
+      "tagline": "Survival and creative, right in the launcher.",
+      "description": "A full voxel sandbox: mine, build, craft, fight mobs, change the time, fly in creative. 114 sound effects and 3D audio.",
+      "genres": [
+        "Sandbox",
+        "Survival",
+        "Building"
+      ],
+      "type": "download",
+      "version": "2.2.0",
+      "downloadUrl": "https://github.com/mikeydv0/seize-games-launcher/releases/download/minecraft-v2.2.0/minecraft-2.2.0.zip",
+      "entry": "index.html",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/minecraft.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/minecraft.png",
+      "changelog": [
+        {
+          "version": "2.2.0",
+          "date": "2026-09-02",
+          "notes": "3D audio engine, 114 sounds, chat commands."
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-08-30",
+          "notes": "Real mob models."
+        }
+      ]
+    },
+    {
+      "id": "endgame",
+      "title": "THE END GAME",
+      "tagline": "Our flagship Roblox experience.",
+      "description": "Opens on Roblox. Survive THE VOID with your friends.",
+      "genres": [
+        "Roblox",
+        "Multiplayer"
+      ],
+      "type": "link",
+      "url": "https://www.roblox.com/games/100274217465849",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/endgame.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/endgame.png"
+    },
+    {
+      "id": "destruction-rivals",
+      "title": "DESTRUCTION RIVALS",
+      "tagline": "Wreck everything. Beat your rival.",
+      "description": "Opens on Roblox. Currently in testing.",
+      "genres": [
+        "Roblox",
+        "PvP",
+        "Testing"
+      ],
+      "type": "link",
+      "url": "https://www.roblox.com/games/122196671814936",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/destruction-rivals.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/destruction-rivals.png"
+    },
+    {
+      "id": "dream-garage",
+      "title": "DREAM GARAGE",
+      "tagline": "Build the garage. Fill it.",
+      "description": "Opens on Roblox.",
+      "genres": [
+        "Roblox",
+        "Cars"
+      ],
+      "type": "link",
+      "url": "https://www.roblox.com/games/80313669983033",
+      "cover": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/dream-garage.png",
+      "hero": "https://raw.githubusercontent.com/mikeydv0/seize-games-launcher/main/assets/dream-garage.png"
+    }
+  ]
+}
